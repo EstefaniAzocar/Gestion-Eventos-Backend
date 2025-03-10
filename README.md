@@ -80,7 +80,7 @@ const API_URL = "http://localhost:8080/events";
 
 ### Frontend
 - **Componentes reutilizables:** Uso de componentes modulares en React.
-- **Hooks y Context API:** Para manejar el estado de la aplicación.
+- **useState y useEffect:** Para manejar el estado en los componentes.
 
 ---
 
