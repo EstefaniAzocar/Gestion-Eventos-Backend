@@ -23,7 +23,7 @@ backend/
 
 ### 2️⃣ Instalación y ejecución
 ```bash
-cd backend
+Ubicarse y asegurse que este en la carpeta donde se encuentra el proyecto guardado con la terminacion cd "Nombre de Carpeta" 
 mvn clean install
 mvn spring-boot:run
 ```
@@ -57,11 +57,11 @@ frontend/
 
 ### 1️⃣ Requisitos previos
 - Node.js 18+
-- npm o yarn
+- npm
 
 ### 2️⃣ Instalación y ejecución
 ```bash
-cd frontend
+Ubicarse y asegurse que este en la carpeta donde se encuentra el proyecto guardado con la terminacion cd "Nombre de Carpeta" 
 npm install
 npm run dev
 ```
@@ -80,14 +80,16 @@ const API_URL = "http://localhost:8080/events";
 
 ### Frontend
 - **Componentes reutilizables:** Uso de componentes modulares en React.
-- **useState y useEffect:** Para manejar el estado en los componentes.
+- **useState y useEffect:** Hooks Para manejar el estado en los componentes.
 
 ---
 
 ## 📖 Documentación del Código
 - Se han añadido comentarios en los archivos clave para facilitar la comprensión.
 - Se recomienda usar herramientas como Swagger para documentar la API en el backend.
-
+```js
+ http://localhost:8080/swagger-ui/index.html
+```
 ---
 
 ## 🛠 Pruebas Unitarias
